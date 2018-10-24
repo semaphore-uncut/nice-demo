@@ -12,7 +12,6 @@ blocks:
       - name: Deploy
         commands:
           - checkout
-          - echo $AWS_KEY
           - ls -1
           - echo $APP_ENV
           - echo "Docker build..."
